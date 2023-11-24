@@ -980,13 +980,18 @@
 	.mt-60.testimonial-box .ml_170 { margin-left: 0px !important; }
 	.testimonial-box.testimonial-bgimg-box{	padding: 0 20px !important;	}
 }
-
+.pl-25 {
+    padding-left: 25px !important;
+}
 @media (max-width: 767px){
 
 	/* Title */
 	.section-title h2.title{
-		font-size: 35px;
+		font-size: 27px;
 		line-height: 40px;
+	}
+	.padr{
+		padding-right: 20px;
 	}
 	.section-title.style2 h2{ padding: 0; }
 	.title-box-only h2{ font-size: 50px; line-height: 60px; }
