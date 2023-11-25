@@ -185,7 +185,7 @@ menu, ol, ul {
 
 body { font-family: "Open Sans",Tahoma,Geneva,sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 28px;
     color: #5d6576;
     background-color: #f3f7f9;
@@ -544,13 +544,13 @@ a.checkout-button,
 .ttm-bgcolor-darkgrey .featured-box.left-icon p,
 .ttm-bgcolor-darkgrey .featured-box.style2.text-center p,
 .ttm-bgcolor-skincolor .featured-box.style2.text-center p{
-    color: rgba(255,255,255,.75);
+    color: rgba(255,255,255,.90);
 }
 .ttm-bgcolor-skincolor > p,
 .ttm-bgcolor-darkgrey > p,
 .ttm-bgcolor-skincolor .section-title p,
 .ttm-bgcolor-darkgrey .section-title p{
-    color: rgba(255,255,255,.85);
+    color: rgba(255,255,255,.95);
 }
 .ttm-bgcolor-skincolor .contactform.style2 textarea::-webkit-input-placeholder,
 .ttm-bgcolor-skincolor .contactform.style2 input::-webkit-input-placeholder,
@@ -1009,12 +1009,14 @@ ul li .icon-box.icon-style-border i{
     font-size: 15px;
     line-height: 20px;
     font-weight: 500;
-    color: #5d6576;
+    color: #5d6576 ;
     margin-bottom: 8px;
     font-weight: normal;
     font-family: Open sans;
 }
-
+.ttm-header-style-infostack .ttm-top-info-con .title-box p a{
+    color: #5d6576 ;
+}
 
 /*  ===============================================
     Header
@@ -1811,4 +1813,51 @@ hr {
 }
 .desktopv{
     display: none;
+}
+
+.bounce {
+	position: absolute;
+	top: 0px;
+	left: 50% ;
+	width: 60px;
+	height: 60px ;
+	margin-left:-30px;
+	/* border: 2px solid #990000; */
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	border-radius:50%;
+	animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+	-o-animation: bounce 2s infinite;
+}
+ 
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	
+	40% {-webkit-transform: translateY(-30px);}
+	60% {-webkit-transform: translateY(-15px);}
+}
+ 
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+	40% {-moz-transform: translateY(-30px);}
+	60% {-moz-transform: translateY(-15px);}
+}
+ 
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+	40% {-o-transform: translateY(-30px);}
+	60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+.widget-out-link {
+    margin-top: 70px !important;
+}
+.widget-out-link a {
+    color: white;
 }
