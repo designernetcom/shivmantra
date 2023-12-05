@@ -649,3 +649,4 @@ jQuery('#totop').click(function() {      // When arrow is clicked
     });
 
 })(jQuery);
+

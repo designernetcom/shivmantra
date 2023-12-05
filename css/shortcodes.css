@@ -148,7 +148,7 @@ body .page .site-main >.ttm-row:not(.intro-section):first-child {margin-top: -92
 
 .bg-layer > .container > .row { margin: 0; }
 .bg-layer > .container > .row > [class*='col-'] ,
-.bg-layer > .container-fluid > .row > [class*='col-'] { padding: 0; }
+.bg-layer > .container-fluid > .row > [class*='col-'] { }
 
 
 /* Row-Bg-Image  
@@ -384,7 +384,8 @@ body .page .site-main >.ttm-row:not(.intro-section):first-child {margin-top: -92
     /* text-align: center; */
 }
 .section-title.style2{
-    margin-bottom: 60px;
+    margin-bottom: 35px;
+    text-align: center;
 }
 .section-title.style2.with-seprator{ margin-bottom: 35px; }
 .section-title.style2 h2.title{ padding-bottom: 0px; margin-bottom: 15px;}
@@ -399,9 +400,9 @@ body .page .site-main >.ttm-row:not(.intro-section):first-child {margin-top: -92
 }
 .ttm-bgcolor-skincolor .section-title.style2:after{ border-right: 1px solid rgba(255,255,255,.16); }
 .section-title.style2 h2{
-    display: table-cell;
-    width: 56%;
-    padding: 0 60px 0 0;
+    /* display: table-cell;
+    width: 56%; */
+    /* padding: 0 60px 0 0; */
 }
 .section-title.style2 p{
     display: table-cell;
@@ -420,7 +421,7 @@ body .page .site-main >.ttm-row:not(.intro-section):first-child {margin-top: -92
     font-weight: 600;
     font-size: 38px;
     line-height: 45px;
-    padding-bottom: 51px;
+    padding-bottom: 40px;
     margin-bottom: 0px;
 }
 .section-title h3.title{
@@ -743,13 +744,14 @@ h2.title strong{
 }
 .ttm-btn.ttm-btn-color-white.ttm-btn-style-border {
     color: #fff;
-    border-color: #fff;
-    background: transparent;
+    margin-top: 15px;
+    border-color: #bf1e19;
+    background: #bf1e19;
 }
 .ttm-btn.ttm-btn-color-white.ttm-btn-style-border:hover{ 
     color: #020d26;
-    border-color: #FFF;
-    background-color: #FFF;
+    border-color: #ff8a00;
+    background-color: #ff8a00;
 }
 
 /** btn-style-fill **/
@@ -1092,6 +1094,7 @@ h2.title strong{
     line-height: 28px;
     margin-bottom: 10px;
     font-weight: 600;
+    color: #fff;
 }
 .featured-box.left-icon .ttm-icon.ttm-icon_element-size-md {
     height: 94px;
@@ -1220,7 +1223,7 @@ h2.title strong{
     border-left: none;
 }
 .featured-box.style7 { padding: 0 0; }
-.featured-box.style7 .featured-title h5{ font-size: 18px; line-height: 33px; margin-bottom: 10px;}
+.featured-box.style7 .featured-title h5{ font-size: 18px; line-height: 33px; margin-bottom: 10px;color:#000}
 .featured-box.style7 .featured-icon i{ font-size: 26px; line-height: 0px; font-weight: 400; vertical-align: middle;}
 
 .featured-box.style8{ padding: 0 0 ; margin: 0 0 20px; border-bottom: 1px solid #ebebeb;  display: block; clear: both;}
@@ -2067,7 +2070,7 @@ h2.title strong{
 ---------------------------------------------------------------*/
 .post, .post-image{position:relative; border-radius: 2px; overflow: hidden;}
 .post{ margin-bottom: 30px; }
-.post.post-topimage{ margin: 5px; }
+.post.post-topimage{ margin: 5px 0px 25px 0px;    background-color: #fff; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
 .post-meta ul{ 
     padding: 0 3px 10px 0;
     margin: 0;
@@ -2118,8 +2121,8 @@ h2.title strong{
     background-color: #fff;
     color: #7f7f7f;
 }
-.post .post-desc{
-    padding: 33px 0 25px 0;
+.post .post-desc {
+    padding: 5px 0 3px 0;
 }
 .post .post-desc.style3{
     padding: 0 0px 30px 25px;
@@ -2492,7 +2495,7 @@ label i {
 }
 .wrap-form label {
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: -15px;
     padding-top: 5px;
 }
 .getquote-form label i {
@@ -2521,12 +2524,12 @@ label i {
     border: none;
     border-radius: 0;
     padding-bottom: 9px;
-    padding-left: 35px;
+    padding-left: 50px;
     border-bottom: 1px solid rgba(0,0,0,.15);
 }
 .contactform.style2 label i  {
     position: absolute;
-    left: 5px;
+    left: 10px;
     top: 25px;
     opacity: .9;
     font-size: 16px;

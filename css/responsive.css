@@ -400,6 +400,7 @@
 	#site-header-menu #site-navigation .menu ul ul {
 	    display: none;
 	    z-index: 11;
+		margin-top: 2px;
 	    position: absolute;
 	    width: 250px;
 	    border-top: 0px solid #fff;
@@ -419,7 +420,7 @@
         font-weight: 600;
         font-size: 13px;
         line-height: 15px;
-        color: #5d6576;
+        color: #000;
     }
     #site-header-menu #site-navigation > ul > li ul a:before {
         font-family: "FontAwesome";
@@ -577,6 +578,11 @@
 
 
 }
+@media only screen and (max-width: 768px){
+	.ttm-fid {
+		padding: 5px 0px;
+	}
+}
 
 @media only screen and (max-width: 1200px) and (min-width: 768px){
 	/* footer */
@@ -592,6 +598,7 @@
 		float: right;
 		padding-top: 5px;
 	}
+	
 }
 
 

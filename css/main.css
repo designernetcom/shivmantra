@@ -1,9 +1,4 @@
-/**
-  * Name: Tectxon
-  * Version: 2.0
-  * Author: ThemetechMount
-  * Author URI: http://www.themetechmount.com
-*/
+
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i');
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,600i,700,700i,900');
@@ -140,11 +135,11 @@ select{
     vertical-align: middle;
     width: 100%;
     color: #5d6576;
-    padding: 10px 20px;
+    padding: 10px 35px;
     font-weight: 400;
     background-color: rgba(0,0,0,.03);
     text-transform: inherit;
-    border: 1px solid #e5e5e5;
+    border: 1px solid #807d7d; 
     font-size: 16px;
     outline: none;
     line-height: inherit;
@@ -253,7 +248,7 @@ body .page {
     z-index: 10;
 }
 body .site-main {
-    padding-top: 160px;
+    padding-top: 130px;
     background-color: #fff;
     position: relative;
     z-index: 9;
@@ -281,9 +276,9 @@ body .page.ttm-sidebar-true .site-main{
 .padding-5{ padding-top: 114px; padding-left: 15px; padding-right: 15px;}
 .padding-6{ margin-top: 50px; padding-top: 80px ; padding-right: 30px; padding-bottom: 34px;}
 .padding-7{ padding-top: 130px; padding-bottom: 45px; padding-left: 70px;}
-.padding-8{ padding-top: 67px; padding-right: 70px; padding-bottom: 50px; padding-left: 70px;}
+.padding-8{ padding-top: 40px; padding-right: 70px; padding-bottom: 40px; padding-left: 70px;}
 .padding-9{ padding-top: 78px; padding-bottom: 28px; padding-left: 60px; padding-right: 15px; }
-.padding-10 { margin-top: -68px; margin-left: -100px; padding-top: 70px; padding-right: 70px; padding-bottom: 100px; padding-left: 100px; }
+.padding-10 { margin-top: -68px; margin-left: -100px; padding-top: 70px; padding-bottom: 100px; padding-left: 100px; }
 .padding-11 { padding-top: 105px ; padding-right: 120px ; padding-bottom: 50px ; padding-left: 265px ; }
 .padding-12{ padding-top: 105px; padding-right: 120px; padding-bottom: 50px; padding-left: 265px; }
 .padding-13{ padding-top: 78px; padding-right: 230px; padding-bottom: 48px; }
@@ -1332,7 +1327,7 @@ ul li .icon-box.icon-style-border i{
 
 /** SecondFooter **/
 .footer .second-footer{
-    padding: 35px 0 50px;
+    padding: 0px 0 50px;
    
     background-color: #fbfbfb;
     background-position: center;
@@ -1379,11 +1374,14 @@ ul li .icon-box.icon-style-border i{
 }
 .second-footer .widget-area:first-child .social-icons li>a {
     font-size: 19px;
-    text-align: left;
+    text-align: center;
     padding: 0 5px;
     color: rgba(6,22,58,1);
+    border: 1px solid red;
 }
-.second-footer .widget-area:first-child .social-icons li:last-child>a{ padding-left: 0; }
+.second-footer .widget-area:first-child .social-icons li:last-child>a{
+     /* padding-left: 0; */
+     }
 .footer-logo img{
     height: 45px;
     width: auto;
@@ -1405,7 +1403,7 @@ ul li .icon-box.icon-style-border i{
 }
 .widget ul, ul.footer-nav-menu{ margin: 0; padding: 0; }
 .widget ul>li {
-    padding: 0 0 15px 0;
+    padding: 0 15px 15px 0;
 }
 .widget-contact li i {
     position: absolute;
@@ -1598,15 +1596,15 @@ ul.footer-nav-menu li:last-child:after{
 ------------------------*/
 
 .ttm-page-title-row { 
-    background-image: url(../images/ttm-pagetitle-bg.png);
+    background-image: url(../images/slides/slider-mainbg-008.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .ttm-page-title-row { 
     display: block;
-    padding-top: 165px; 
-    padding-bottom: 158px;
+    padding-top: 110px; 
+    padding-bottom: 100px;
 }
 .title-box .page-title-heading h1 {
     font-family: "Titillium Web",Arial,Helvetica,sans-serif;
@@ -1750,6 +1748,7 @@ section.error-404 .page-content p {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border: 2px solid #fff;
     margin-bottom: 30px;
+    background-color: #3b4557;
 }
 .about-img img{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -1860,4 +1859,185 @@ hr {
 }
 .widget-out-link a {
     color: white;
+}
+.ttops{
+    padding: 0px 9px !important;
+}
+.ttm-bgcolor-white .separator .sep-line {
+    border-color: #b0acac !important;
+}
+.separator .sep-line {
+    height: 1px;
+    border-top: 1px solid #dbdbdb;
+    display: block;
+    position: relative;
+    top: 5px;
+    width: 100%;
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  .modal-title {
+    margin-bottom: 0;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 28px;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff8a00;
+    border-color: #ff8a00;
+    border:none;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ff8a00;
+    border-color: #ff8a00;
+}
+.mega-menu-list {
+    width: 1000px !important;
+    left: -200px;
+}
+@media (max-width: 991px){
+    .mega-menu-list {
+       overflow-y: scroll !important;
+    }
+}
+
+.bshad{
+   
+    border-right: 1px solid rgb(216, 214, 214);
+}
+.bshad li{
+    border-bottom: 1px solid #e0dfdf;
+}
+.bshads li{
+    border-bottom: 1px solid #e0dfdf;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ff8a00;
+    border-color: #ff8a00;
+}
+.featured-desc p a{
+    color:#ffff;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.cimg{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.ttm-rows{
+    margin-top: -60px;
+    margin-bottom: 40px;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow:none !important;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow:none !important;
+}
+.btn{
+    border:1px solid #ff8a00 !important;
+}
+.pro-data p{
+    text-align: justify;
+    color: #000;
+}
+.dclass ul li{
+    list-style-type: disc;
+    color: #000;
+}
+.pro-data h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #4d5668;
+    color: #000;
+}
+.table td, .table th {
+    padding: 0.35rem;
+}
+.dclasss {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: -30px;
+}
+.fixed-header .menu{
+    box-shadow: none !important ;
+}
+.layer-content h2{
+    font-size: 32px;
+}
+input[type="text"], textarea{
+    background-color: #fff;
 }
